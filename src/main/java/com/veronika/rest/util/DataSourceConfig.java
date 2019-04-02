@@ -15,11 +15,11 @@ public class DataSourceConfig {
             Properties prop = new Properties();
             prop.load(inputStream);
             return new DataSourceConfig(Objects.requireNonNull(prop.getProperty("inputFilePath")),
-                    Objects.requireNonNull(prop.getProperty("outputFilePath")));
+                                        Objects.requireNonNull(prop.getProperty("outputFilePath")));
         }
     }
 
-    public DataSourceConfig(String inputFilePath,
+    private DataSourceConfig(String inputFilePath,
                             String outputFilePath) {
         this.inputFilePath = inputFilePath;
         this.outputFilePath = outputFilePath;

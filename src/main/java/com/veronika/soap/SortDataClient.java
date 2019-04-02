@@ -14,11 +14,10 @@ public class SortDataClient {
         Service service = Service.create(url, qname);
         SortData sortData = service.getPort(SortData.class);
 
-        System.out.println("Please entre snetence. Example: aaa, cvf, dfr, vgct, aadf");
+        System.out.println("Please enter sentence. Example: aaa, cvf, dfr, vgct, aadf");
+
         Scanner in = new Scanner(System.in);
         String input = in.nextLine();
-
-//        String dataToSort = "adc, abs, acs, ccc, dsf, aaa";
         String sortedData = sortData.getSortedData(input);
 
         System.out.println("input: " + input);
