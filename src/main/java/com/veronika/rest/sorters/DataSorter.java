@@ -1,6 +1,6 @@
-package com.veronika.sort.sorters;
+package com.veronika.rest.sorters;
 
-import com.veronika.sort.util.DataSourceConfig;
+import com.veronika.rest.util.DataSourceConfig;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

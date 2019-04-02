@@ -1,4 +1,4 @@
-package com.veronika.sort.util;
+package com.veronika.rest.util;
 
 import java.io.FileInputStream;
 import java.io.IOException;

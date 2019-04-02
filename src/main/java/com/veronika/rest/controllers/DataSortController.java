@@ -1,6 +1,6 @@
-package com.veronika.sort.controllers;
+package com.veronika.rest.controllers;
 
-import com.veronika.sort.sorters.DataSorter;
+import com.veronika.rest.sorters.DataSorter;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
